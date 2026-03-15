@@ -72,9 +72,9 @@ def extract_video(page_url):
 
 def main():
     """Command Line Interface entry point."""
-    parser = argparse.ArgumentParser(description="Extract raw MP4 and m3u8 links from a video URL.")
+    parser = argparse.ArgumentParser(description="Extract raw m3u8 links from a Xhamster video URL.")
     parser.add_argument("url", help="The URL of the video page")
-    parser.add_argument("--format", choices=["m3u8", "mp4", "all"], default="m3u8", 
+    parser.add_argument("--format", choices=["m3u8"], default="m3u8", 
                         help="Specify which link to output (default: m3u8)")
     
     args = parser.parse_args()

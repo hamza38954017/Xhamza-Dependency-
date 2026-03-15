@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='xhamza',
-    version='1.0.0', # Change this if you update your code later
+    version='1.0.1', # Change this if you update your code later
     description='A simple tool to extract m3u8  links of xhamster video.',
     long_description=long_description,
     long_description_content_type='text/markdown',
